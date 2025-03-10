@@ -3,6 +3,8 @@
  *
    $DEFY AI on mainnet eth
    https://defy.ac
+   https://x.com/defyai_eth
+   https://t.me/defyai_eth
 
    Contract features:
    100,000,000 tokens
