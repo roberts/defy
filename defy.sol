@@ -1148,7 +1148,7 @@ contract Defy is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://deepAIagent.io";
+    string public websiteLink = "https://defy.ac";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1204,7 +1204,7 @@ contract Defy is ERC20, Ownable {
 
     constructor() ERC20("defy ai agents", "DEFY") {
         uniswapV2Router = IUniswapV2Router02(
-            0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
+            0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
 
